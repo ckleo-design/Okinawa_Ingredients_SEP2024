@@ -1,0 +1,33 @@
+.d-pc-lg {
+  display: none; }
+  @media screen and (min-width: 1601px) {
+    .d-pc-lg {
+      display: block; } }
+
+.d-pc {
+  display: block; }
+  @media screen and (max-width: 768px) {
+    .d-pc {
+      display: none; } }
+
+.d-sp {
+  display: none; }
+  @media screen and (max-width: 768px) {
+    .d-sp {
+      display: block; } }
+
+.d-sp-sm {
+  display: none; }
+  @media screen and (max-width: 375px) {
+    .d-sp-sm {
+      display: block; } }
+
+body {
+  background-color: #ffffff;
+  font-size: 16px;
+  line-height: 1em;
+  color: #333333;
+  letter-spacing: 0;
+  margin-top: 70px;
+  scroll-behavior: smooth;
+  width: 100rem; }

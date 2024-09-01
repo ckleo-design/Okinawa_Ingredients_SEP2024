@@ -1,0 +1,11 @@
+$w-100: 100rem;
+body {
+    background-color: $color-white;
+    font-size: 16px;
+    line-height: 1em;
+    color: $color-black;
+    letter-spacing: 0;
+    margin-top: 70px;
+    scroll-behavior: smooth;
+    width: $w-100;
+}
