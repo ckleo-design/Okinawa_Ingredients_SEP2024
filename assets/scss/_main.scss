@@ -1,0 +1,130 @@
+.firstview {
+    position: relative;
+    width: 100%;
+    height: 600px;
+    background: url('../images/firstview-bg.png') 50% 0% no-repeat;
+    background-size: cover;
+    &--logo {
+        width: 154px;
+        height: auto;
+        position: absolute;
+        top: 50px;
+        left: 50px;
+    }
+    &__inner {
+        height: 100%;
+        display: grid;
+        place-content: center;
+        &--subtitle,
+        &--title {
+            font-size: 54px;
+            line-height: 1;
+            font-family: 'Big Caslon', sans-serif;
+            color: $color-red;
+            text-align: center;
+        }
+        &--title {
+            margin-top: 20px;
+            font-size: 111px;
+        }
+    }
+}
+
+main {
+    .all-items {
+        &--title {
+            margin: 100px auto 80px;
+            font-size: 48px;
+            line-height: 1;
+            font-family: $font-poppins;
+            color: $color-red;
+            text-align: center;
+        }
+        &__inner {
+            width: 100%;
+            max-width: 1280px;
+            margin: 0 auto;
+            padding-bottom: 190px;
+            @include display-flex(row, space-between, flex-start);
+            flex-wrap: wrap;
+            row-gap: 40px;
+            &::after {
+                content: '';
+                box-sizing: border-box;
+                width: 32%;
+                max-width: 400px;
+            }
+            &__block {
+                box-sizing: border-box;
+                width: 32%;
+                max-width: 400px;
+                min-width: 240px;
+                padding: 26px 22px;
+                background-color: $color-white;
+                border: 1px solid #b3b3b3;
+                &--item-image {
+                    width: 100%;
+                    height: auto;
+                }
+                &--item-title {
+                    margin: 26px auto 10px;
+                    height: 100px;
+                    font-size: unquote('clamp(1.25rem, 0.7813rem + 0.9766vw, 1.5625rem)');
+                    font-weight: 600;
+                    line-height: 1.25;
+                    font-family: $font-poppins;
+                    color: $color-black;
+                    text-align: center;
+                }
+                &--item-btn {
+                    display: block;
+                    width: 80%;
+                    margin: 0 auto;
+                    padding: 16px 0;
+                    background-color: #ee7b62;
+                    border-radius: 25px;
+                    font-size: unquote('clamp(0.9375rem, 0.6563rem + 0.5859vw, 1.125rem)');
+                    font-weight: 500;
+                    line-height: 1;
+                    font-family: $font-poppins;
+                    color: $color-white;
+                    text-align: center;
+                    transition: background-color 0.3s;
+                    &:hover {
+                        cursor: pointer;
+                        background-color: #f3937e;
+                    }
+                }
+            }
+        }
+    }
+}
+.l-footer {
+    background-color: #333;
+    padding: 50px 0;
+    &--copyright {
+        font-size: 14px;
+        line-height: 1;
+        font-family: $font-poppins;
+        color: $color-white;
+        text-align: center;
+    }
+}
+.page-top {
+    width: 50px;
+    height: 50px;
+    position: fixed;
+    bottom: 20px;
+    right: 20px;
+    transition: opacity 0.5s;
+    img {
+        width: 100%;
+        height: auto;
+    }
+    &.display {
+        opacity: 1;
+    }
+    &.remove {
+        opacity: 0;
+    }
+}

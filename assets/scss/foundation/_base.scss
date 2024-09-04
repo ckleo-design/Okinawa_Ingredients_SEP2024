@@ -1,11 +1,10 @@
-$w-100: 100rem;
 body {
-    background-color: $color-white;
+    background-color: #f8f4e9;
     font-size: 16px;
     line-height: 1em;
     color: $color-black;
     letter-spacing: 0;
-    margin-top: 70px;
     scroll-behavior: smooth;
-    width: $w-100;
+    width: 100%;
+    position: relative;
 }

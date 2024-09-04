@@ -1,6 +1,7 @@
-@import 'base/reset';
-@import 'mixin/color';
-@import 'mixin/contents';
-@import 'mixin/display';
-@import 'mixin/font';
-@import 'base/base';
+@import 'foundation/_reset.scss';
+@import 'foundation/_color.scss';
+@import 'foundation/_display.scss';
+@import 'foundation/_font.scss';
+@import 'foundation/_base.scss';
+@import 'foundation/_mediaQuery.scss';
+@import '_main.scss';
