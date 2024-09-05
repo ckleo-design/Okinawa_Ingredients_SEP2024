@@ -143,6 +143,7 @@ main .all-items__inner {
       font-family: "Poppins", arial;
       color: #ffffff;
       text-align: center;
+      text-decoration: none;
       transition: background-color 0.3s; }
       main .all-items__inner__block--item-btn:hover {
         cursor: pointer;

@@ -89,6 +89,7 @@ main {
                     font-family: $font-poppins;
                     color: $color-white;
                     text-align: center;
+                    text-decoration: none;
                     transition: background-color 0.3s;
                     &:hover {
                         cursor: pointer;
