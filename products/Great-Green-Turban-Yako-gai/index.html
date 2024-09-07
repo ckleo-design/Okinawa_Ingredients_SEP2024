@@ -3,9 +3,74 @@
     <head>
         <meta charset="UTF-8" />
         <meta name="viewport" content="width=device-width, initial-scale=1.0" />
-        <title>Document</title>
+        <title>【ページタイトル】</title>
+        <meta name="description" content="【ページディスクリプション】" />
+        <meta name="keywords" content="【ページキーワード】" />
+        <link rel="icon" href="【Favicon】" />
+        <link rel="stylesheet" href="../../assets/css/style.css" />
     </head>
     <body>
-        <h1>Great-Green-Turban-Yako-gai</h1>
+        <section class="item-profile">
+            <div id="profile"></div>
+        </section>
     </body>
+    <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.7.0/jquery.min.js"></script>
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/handlebars.js/4.7.8/handlebars.min.js"></script>
+    <script src="../../assets/js/main.js"></script>
+    <script src="../../assets/js/productsList.js"></script>
+    <script type="text/x-handlebars-template" id="itemListTemplate">
+        {{#each itemList}}
+            {{#ifCond name 'Great Green Turban/ Yako-gai'}}
+                <div class='item-profile__inner'>
+                    <div class='item-profile__inner__image'>
+                        <img src='../../assets/images/items/{{image}}.png' alt='' />
+                    </div>
+                    <div class='item-profile__inner__content'>
+                        <h2 class='item-profile__inner__content--product-name'>{{name}}</h2>
+                        <div class='item-profile__inner__content--hr'></div>
+                        <p class='item-profile__inner__content--product-detail'>{{{br detail}}}</p>
+                        <table class='item-profile__inner__content__info'>
+                            <tr class='item-profile__inner__content__info__row'>
+                                <td class='item-profile__inner__content__info__row--title'>Specification</td>
+                                <td class='item-profile__inner__content__info__row--detail'>{{specification}}</td>
+                            </tr>
+                            <tr class='item-profile__inner__content__info__row'>
+                                <td class='item-profile__inner__content__info__row--title'>No. of Items per Case</td>
+                                <td class='item-profile__inner__content__info__row--detail'>{{br itemsPerCase}}</td>
+                            </tr>
+                            <tr class='item-profile__inner__content__info__row'>
+                                <td class='item-profile__inner__content__info__row--title'>MOQ</td>
+                                <td class='item-profile__inner__content__info__row--detail'>{{br moq}}</td>
+                            </tr>
+                            <tr class='item-profile__inner__content__info__row'>
+                                <td class='item-profile__inner__content__info__row--title'>Net Weight</td>
+                                <td class='item-profile__inner__content__info__row--detail'>{{br netWeight}}</td>
+                            </tr>
+                            <tr class='item-profile__inner__content__info__row'>
+                                <td class='item-profile__inner__content__info__row--title'>Ingredients</td>
+                                <td class='item-profile__inner__content__info__row--detail'>{{ingredients}}</td>
+                            </tr>
+                            <tr class='item-profile__inner__content__info__row'>
+                                <td class='item-profile__inner__content__info__row--title'>Shelf Life (Days)</td>
+                                <td class='item-profile__inner__content__info__row--detail'>{{shelfLife}}</td>
+                            </tr>
+                            <tr class='item-profile__inner__content__info__row'>
+                                <td class='item-profile__inner__content__info__row--title'>Shipping Availability</td>
+                                <td class='item-profile__inner__content__info__row--detail'>{{shipping}}</td>
+                            </tr>
+                            <tr class='item-profile__inner__content__info__row'>
+                                <td class='item-profile__inner__content__info__row--title'>Reference Price</td>
+                                <td class='item-profile__inner__content__info__row--detail'>{{price}}</td>
+                            </tr>
+                        </table>
+                        <div class='item-profile__inner__content__cooking'>
+                            <p class='item-profile__inner__content__cooking--title'>&lt;Usage, Cooking Examples, Other Remarks&gt;</p>
+                            <p class='item-profile__inner__content__cooking--detail'>{{{br cooking}}}</p>
+                        </div>
+                        <a class='item-profile__inner__content--all-list-btn' href='../../'>VIEW ALL PRODUCTS</a>
+                    </div>
+                </div>
+            {{/ifCond}}
+        {{/each}}
+    </script>
 </html>
