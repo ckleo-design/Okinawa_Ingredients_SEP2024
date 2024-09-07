@@ -173,3 +173,93 @@ main .all-items__inner {
     opacity: 1; }
   .page-top.remove {
     opacity: 0; }
+
+.item-profile {
+  box-sizing: border-box;
+  width: 100%;
+  height: 100vh;
+  padding: 100px 60px;
+  background-color: #ffffff; }
+  .item-profile__inner {
+    max-width: 1440px;
+    margin: 0 auto;
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between;
+    align-items: flex-start; }
+    .item-profile__inner__image {
+      width: 43%;
+      max-width: 550px; }
+      .item-profile__inner__image img {
+        width: 100%;
+        height: auto; }
+    .item-profile__inner__content {
+      width: 50%; }
+      .item-profile__inner__content--product-name {
+        font-size: 32px;
+        line-height: 1.3;
+        font-family: "Poppins", arial;
+        font-weight: 600; }
+      .item-profile__inner__content--hr {
+        width: 100%;
+        display: block;
+        border-top: 1px dashed #808080;
+        margin: 24px 0; }
+      .item-profile__inner__content--product-detail {
+        font-size: 18px;
+        line-height: 1.5;
+        font-family: "Poppins", arial;
+        font-weight: 500; }
+      .item-profile__inner__content__info {
+        width: 100%;
+        border: 1px solid #b2b2b2;
+        margin-top: 20px; }
+        .item-profile__inner__content__info__row {
+          width: 100%;
+          border: 1px solid #b2b2b2;
+          background-color: #eaf0f2; }
+          .item-profile__inner__content__info__row:nth-child(2n) {
+            background-color: #ffffff; }
+          .item-profile__inner__content__info__row--title {
+            padding: 12px 10px;
+            width: 33%;
+            border-right: 1px solid #b2b2b2;
+            font-size: 18px;
+            line-height: 1;
+            font-family: "Poppins", arial;
+            font-weight: 500; }
+          .item-profile__inner__content__info__row--detail {
+            padding: 12px 10px;
+            width: 67%;
+            font-size: 18px;
+            line-height: 1;
+            font-family: "Poppins", arial;
+            font-weight: 500; }
+      .item-profile__inner__content__cooking {
+        margin-top: 24px; }
+        .item-profile__inner__content__cooking--title {
+          font-size: 18px;
+          line-height: 1.5;
+          font-family: "Poppins", arial;
+          font-weight: 700; }
+        .item-profile__inner__content__cooking--detail {
+          font-size: 18px;
+          line-height: 1.5;
+          font-family: "Poppins", arial;
+          font-weight: 500; }
+      .item-profile__inner__content--all-list-btn {
+        margin-top: 24px;
+        display: block;
+        width: fit-content;
+        padding: 20px 70px;
+        background-color: #64b1ba;
+        font-size: 18px;
+        line-height: 1;
+        font-family: "Poppins", arial;
+        font-weight: 600;
+        color: #ffffff;
+        text-decoration: none;
+        transition: background-color 0.3s; }
+        .item-profile__inner__content--all-list-btn:hover {
+          cursor: pointer;
+          background-color: #70c6d0; }

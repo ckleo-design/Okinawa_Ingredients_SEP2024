@@ -34,12 +34,12 @@
     <script src="assets/js/main.js"></script>
     <script src="assets/js/productsList.js"></script>
 
-    <script type="text/x-handlebars-template" id="template">
+    <script type="text/x-handlebars-template" id="itemListTemplate">
         {{#each itemList}}
             <div class='all-items__inner__block'>
-                <img class='all-items__inner__block--item-image' src='assets/images/{{image}}.png' alt='Leopard Coralgrouper /  Mebai' />
+                <img class='all-items__inner__block--item-image' src='assets/images/items/{{image}}.png' alt='{{name}}' />
                 <h3 class='all-items__inner__block--item-title'>{{name}}</h3>
-                <a class='all-items__inner__block--item-btn' href='products/{{productPage}}'>View Details</a>
+                <a class='all-items__inner__block--item-btn' href='products/{{link}}'>View Details</a>
             </div>
         {{/each}}
     </script>
