@@ -63,58 +63,59 @@
     <script src="https://cdnjs.cloudflare.com/ajax/libs/handlebars.js/4.7.8/handlebars.min.js"></script>
     <script src="../../assets/js/main.js"></script>
     <script src="../../assets/js/productsList.js"></script>
-
     <script type="text/x-handlebars-template" id="itemListTemplate">
-        {{#with itemList}}
-            <div class='item-profile__inner'>
-                <div class='item-profile__inner__image'>
-                    <img src='../../assets/images/items/{{aaa.image}}.png' alt='' />
-                </div>
-                <div class='item-profile__inner__content'>
-                    <h2 class='item-profile__inner__content--product-name'>{{name}}</h2>
-                    <div class='item-profile__inner__content--hr'></div>
-                    <p class='item-profile__inner__content--product-detail'>{{detail}}</p>
-                    <table class='item-profile__inner__content__info'>
-                        <tr class='item-profile__inner__content__info__row'>
-                            <td class='item-profile__inner__content__info__row--title'>Specification</td>
-                            <td class='item-profile__inner__content__info__row--detail'>{{specification}}</td>
-                        </tr>
-                        <tr class='item-profile__inner__content__info__row'>
-                            <td class='item-profile__inner__content__info__row--title'>No. of Items per Case</td>
-                            <td class='item-profile__inner__content__info__row--detail'>{{itemsPerCase}}</td>
-                        </tr>
-                        <tr class='item-profile__inner__content__info__row'>
-                            <td class='item-profile__inner__content__info__row--title'>MOQ</td>
-                            <td class='item-profile__inner__content__info__row--detail'>{{moq}}</td>
-                        </tr>
-                        <tr class='item-profile__inner__content__info__row'>
-                            <td class='item-profile__inner__content__info__row--title'>Net Weight</td>
-                            <td class='item-profile__inner__content__info__row--detail'>{{netWeight}}</td>
-                        </tr>
-                        <tr class='item-profile__inner__content__info__row'>
-                            <td class='item-profile__inner__content__info__row--title'>Ingredients</td>
-                            <td class='item-profile__inner__content__info__row--detail'>{{ingredients}}</td>
-                        </tr>
-                        <tr class='item-profile__inner__content__info__row'>
-                            <td class='item-profile__inner__content__info__row--title'>Shelf Life (Days)</td>
-                            <td class='item-profile__inner__content__info__row--detail'>{{shelfLife}}</td>
-                        </tr>
-                        <tr class='item-profile__inner__content__info__row'>
-                            <td class='item-profile__inner__content__info__row--title'>Shipping Availability</td>
-                            <td class='item-profile__inner__content__info__row--detail'>{{shipping}}</td>
-                        </tr>
-                        <tr class='item-profile__inner__content__info__row'>
-                            <td class='item-profile__inner__content__info__row--title'>Reference Price</td>
-                            <td class='item-profile__inner__content__info__row--detail'>{{price}}</td>
-                        </tr>
-                    </table>
-                    <div class='item-profile__inner__content__cooking'>
-                        <p class='item-profile__inner__content__cooking--title'>&lt;Usage, Cooking Examples, Other Remarks&gt;</p>
-                        <p class='item-profile__inner__content__cooking--detail'>{{cooking}}</p>
+        {{#each itemList}}
+            {{#ifCond name ''}}
+                <div class='item-profile__inner'>
+                    <div class='item-profile__inner__image'>
+                        <img src='../../assets/images/items/{{image}}.png' alt='' />
                     </div>
-                    <a class='item-profile__inner__content--all-list-btn' href='../../'>VIEW ALL PRODUCTS</a>
+                    <div class='item-profile__inner__content'>
+                        <h2 class='item-profile__inner__content--product-name'>{{name}}</h2>
+                        <div class='item-profile__inner__content--hr'></div>
+                        <p class='item-profile__inner__content--product-detail'>{{detail}}</p>
+                        <table class='item-profile__inner__content__info'>
+                            <tr class='item-profile__inner__content__info__row'>
+                                <td class='item-profile__inner__content__info__row--title'>Specification</td>
+                                <td class='item-profile__inner__content__info__row--detail'>{{specification}}</td>
+                            </tr>
+                            <tr class='item-profile__inner__content__info__row'>
+                                <td class='item-profile__inner__content__info__row--title'>No. of Items per Case</td>
+                                <td class='item-profile__inner__content__info__row--detail'>{{itemsPerCase}}</td>
+                            </tr>
+                            <tr class='item-profile__inner__content__info__row'>
+                                <td class='item-profile__inner__content__info__row--title'>MOQ</td>
+                                <td class='item-profile__inner__content__info__row--detail'>{{moq}}</td>
+                            </tr>
+                            <tr class='item-profile__inner__content__info__row'>
+                                <td class='item-profile__inner__content__info__row--title'>Net Weight</td>
+                                <td class='item-profile__inner__content__info__row--detail'>{{netWeight}}</td>
+                            </tr>
+                            <tr class='item-profile__inner__content__info__row'>
+                                <td class='item-profile__inner__content__info__row--title'>Ingredients</td>
+                                <td class='item-profile__inner__content__info__row--detail'>{{ingredients}}</td>
+                            </tr>
+                            <tr class='item-profile__inner__content__info__row'>
+                                <td class='item-profile__inner__content__info__row--title'>Shelf Life (Days)</td>
+                                <td class='item-profile__inner__content__info__row--detail'>{{shelfLife}}</td>
+                            </tr>
+                            <tr class='item-profile__inner__content__info__row'>
+                                <td class='item-profile__inner__content__info__row--title'>Shipping Availability</td>
+                                <td class='item-profile__inner__content__info__row--detail'>{{shipping}}</td>
+                            </tr>
+                            <tr class='item-profile__inner__content__info__row'>
+                                <td class='item-profile__inner__content__info__row--title'>Reference Price</td>
+                                <td class='item-profile__inner__content__info__row--detail'>{{price}}</td>
+                            </tr>
+                        </table>
+                        <div class='item-profile__inner__content__cooking'>
+                            <p class='item-profile__inner__content__cooking--title'>&lt;Usage, Cooking Examples, Other Remarks&gt;</p>
+                            <p class='item-profile__inner__content__cooking--detail'>{{cooking}}</p>
+                        </div>
+                        <a class='item-profile__inner__content--all-list-btn' href='../../'>VIEW ALL PRODUCTS</a>
+                    </div>
                 </div>
-            </div>
-        {{/with}}
+            {{/ifCond}}
+        {{/each}}
     </script>
 </html>
