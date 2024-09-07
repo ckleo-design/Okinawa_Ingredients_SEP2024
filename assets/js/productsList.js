@@ -1,3 +1,10 @@
+// if condition
+Handlebars.registerHelper('ifCond', function (v1, v2, options) {
+    if (v1 == v2) {
+        return options.fn(this)
+    }
+    return options.inverse(this)
+})
 //商品リスト
 window.onload = function () {
     const source = $('#itemListTemplate').html()
@@ -23,7 +30,7 @@ window.onload = function () {
 
             //Leopard Coralgrouper / Sujiara (Akajin Mebai)
             {
-                name: 'Leopard Coralgrouper / Sujiara (Akajin Mebai) ',
+                name: 'Leopard Coralgrouper / Sujiara (Akajin Mebai)',
                 image: '',
                 link: '',
                 detail: '',
@@ -443,7 +450,7 @@ window.onload = function () {
 
             //The Okinawa Islands Rum
             {
-                name: 'The Okinawa Islands Rum ',
+                name: 'The Okinawa Islands Rum',
                 image: '',
                 link: '',
                 detail: '',
@@ -457,11 +464,11 @@ window.onload = function () {
             }
         ]
     }
-    const html = template(values)
-    console.log(html)
-    $('#contents').html(html)
+    const allList = template(values)
+    console.log(allList)
+    $('#contents').html(allList)
 
-    const html2 = template(values)
-    console.log(html2)
-    $('#profile').html(html)
+    const itemProfilePage = template(values)
+    console.log(itemProfilePage)
+    $('#profile').html(itemProfilePage)
 }
