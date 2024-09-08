@@ -27,7 +27,7 @@ window.onload = function () {
                 moq: `Approx. 2kg`,
                 netWeight: `Approx. 2kg`,
                 ingredients: `-`,
-                shelfLife: `Not applicable due to being a fresh/raw product`,
+                shelfLife: `Not applicable due to being a fresh / raw product`,
                 shipping: `All year round`,
                 price: `$30-42/kg`,
                 cooking: `Sashimi, Soup, Simmered dishes, Steamed dishes, Sautéed dishes, Grilled dishes`
@@ -38,13 +38,13 @@ window.onload = function () {
                 name: `Leopard Coralgrouper / Sujiara (Akajin Mebai)`,
                 image: `Leopard-Coralgrouper-Sujiara-Akajin-Mebai`,
                 link: `Leopard-Coralgrouper-Sujiara-Akajin-Mebai`,
-                detail: `In the local dialect, "Aka" refers to the fish’s red body color, and "Jin" is linked to money. "Miibai" denotes a fish from the grouper family, meaning "a highly prized red-bodied grouper." Renowned for its delicate white flesh and rich flavor, it is regarded as a premium fish.`,
+                detail: `In the local dialect, "Aka" refers to the fish's red body color, and "Jin" is linked to money. "Miibai" denotes a fish from the grouper family, meaning "a highly prized red-bodied grouper." Renowned for its delicate white flesh and rich flavor, it is regarded as a premium fish.`,
                 specification: `Refrigerated`,
                 itemsPerCase: `-`,
                 moq: `Approx. 2kg`,
                 netWeight: `Approx. 2kg`,
                 ingredients: `-`,
-                shelfLife: `Not applicable due to being a fresh/raw product`,
+                shelfLife: `Not applicable due to being a fresh / raw product`,
                 shipping: `All year round`,
                 price: `$36-60/kg`,
                 cooking: `Sashimi, Soup, Simmered dishes, Steamed dishes, Sautéed dishes, Grilled dishes`
@@ -61,15 +61,32 @@ window.onload = function () {
                 moq: `Approx. 2kg`,
                 netWeight: `Approx. 2kg`,
                 ingredients: `-`,
-                shelfLife: `Not applicable due to being a fresh/raw product`,
+                shelfLife: `Not applicable due to being a fresh / raw product`,
                 shipping: `All year round`,
                 price: `$30-48/kg`,
                 cooking: `Sashimi, Soup, Simmered dishes, Steamed dishes, Sautéed dishes, Grilled dishes`
             },
 
+            //Deepwater Longtail Red Snapper
+            {
+                name: `Blackspot Tuskfish / Makubu`,
+                image: `Blackspot-Tuskfish-Makubu`,
+                link: `Blackspot-Tuskfish-Makubu`,
+                detail: `One of Okinawa's top three luxury fish. Its pure white and beautiful white flesh is very refined. It tastes light and mild. It has a slight sweetness and plumps up when heated. It goes well with light-flavored dishes.`,
+                specification: `Refrigerated`,
+                itemsPerCase: `-`,
+                moq: `Approx. 2kg`,
+                netWeight: `Approx. 2kg`,
+                ingredients: `-`,
+                shelfLife: `Not applicable due to being a fresh / raw product`,
+                shipping: `All year round`,
+                price: `-`,
+                cooking: `Sashimi, Soup, Simmered dishes, Steamed dishes, Sautéed dishes, Grilled dishes`
+            },
+
             //Great Green Turban/ Yako-gai
             {
-                name: `Great Green Turban　/ Yako-gai`,
+                name: `Great Green Turban / Yako-gai`,
                 image: `Great-Green-Turban-Yako-gai`,
                 link: `Great-Green-Turban-Yako-gai`,
                 detail: `The night light shell, known as "Yako-gai," is the largest whelk among turban shells. It offers a flavor similar to that of turban shells but with a subtler marine aroma and a variety of textures. The flesh is slightly firmer and is best enjoyed when sliced thinly. \n \n*Note: Due to the shell's strong closing force, exercise caution when removing the adductor muscle to avoid pinching your fingers. Cutting off the lid can simplify the process of extracting the flesh.`,
@@ -78,7 +95,7 @@ window.onload = function () {
                 moq: `12cm-15cm, 1.2kg-1.5kg`,
                 netWeight: `12cm-15cm, 1.2kg-1.5kg`,
                 ingredients: `-`,
-                shelfLife: `Not applicable due to being a fresh/raw product`,
+                shelfLife: `Not applicable due to being a fresh / raw product`,
                 shipping: `All year round`,
                 price: `$12-24/kg`,
                 cooking: `• The white part is ideal for sashimi.\n• The black part near the lid is tough and should be sautéed with butter.\n• The liver has a sweet taste akin to abalone liver and is very flavorful.\nIf serving the liver as sashimi, be sure to briefly blanch it first.`
@@ -95,7 +112,7 @@ window.onload = function () {
                 moq: `10kg`,
                 netWeight: `10kg`,
                 ingredients: `-`,
-                shelfLife: `Not applicable due to being a fresh/raw product`,
+                shelfLife: `Not applicable due to being a fresh / raw product`,
                 shipping: `All year round`,
                 price: `$33/kg`,
                 cooking: `Sashimi, Sushi topping, Stir-fry ingredient, Sauté, Steak, Fried (karaage), Tempura, Simmered dish`
@@ -112,7 +129,7 @@ window.onload = function () {
                 moq: `Approx. 2kg`,
                 netWeight: `Approx. 2kg`,
                 ingredients: `-`,
-                shelfLife: `Not applicable due to being a fresh/raw product`,
+                shelfLife: `Not applicable due to being a fresh / raw product`,
                 shipping: `October to December, December to March Varies depending on the type of octopus`,
                 price: `$22-30/kg`,
                 cooking: `Sashimi, Boiled, Sauté, Simmered dish, Tempura, Ajillo (garlic oil dish)`
@@ -171,9 +188,9 @@ window.onload = function () {
 
             //Bamboo Shrimp / Kuruma Prawn
             {
-                name: `Bamboo Shrimp / Kuruma Prawn`,
-                image: `Bamboo-Shrimp-Kuruma-Prawn`,
-                link: `Bamboo-Shrimp-Kuruma-Prawn`,
+                name: `Tiger-Prawn`,
+                image: `Tiger-Prawn`,
+                link: `Tiger-Prawn`,
                 detail: `Bamboo shrimp cultivated in Okinawa's warm, pristine waters achieve impressive size year-round thanks to continuous feeding. This consistent nourishment enhances their rich flavor and mineral richness.`,
                 specification: `Frozen`,
                 itemsPerCase: `To be confirmed upon shipping`,
@@ -208,7 +225,7 @@ window.onload = function () {
                 name: `Mozuku Seaweed`,
                 image: `Mozuku-Seaweed`,
                 link: `Mozuku-Seaweed`,
-                detail: `Okinawa's mozuku, renowned for its highest production volume in Japan, is a unique seaweed that thrives exclusively in pristine, beautiful waters. The early-harvested mozuku, known as the new sprout of 'Okinawa mozuku,' is a premium variety meticulously selected by seasoned fishermen at the perfect moment, just before it fully matures. This delicate seaweed is characterized by its slender strands, slippery yet firm texture, and a refreshingly juicy bite. Pre-cleaned for convenience, it is ready to be enjoyed straight from the package.`,
+                detail: `Okinawa's mozuku, renowned for its highest production volume in Japan, is a unique seaweed that thrives exclusively in pristine, beautiful waters. The early-harvested mozuku, known as the new sprout of 'Okinawa mozuku' is a premium variety meticulously selected by seasoned fishermen at the perfect moment, just before it fully matures. This delicate seaweed is characterized by its slender strands, slippery yet firm texture, and a refreshingly juicy bite. Pre-cleaned for convenience, it is ready to be enjoyed straight from the package.`,
                 specification: `Frozen`,
                 itemsPerCase: `10`,
                 moq: `Available from 1 case`,
@@ -217,7 +234,7 @@ window.onload = function () {
                 shelfLife: `365`,
                 shipping: `All year round`,
                 price: `$12/pc`,
-                cooking: `Salad, Omelet filling, Mozuku vinegar, Tempura, Mixed with natto and kimchi, Miso soup, Takoyaki (octopus balls), Noodle topping, Ramen,\n• Rinse off the slime and enjoy it with mentsuyu (noodle dipping sauce) just like how you enjoys zaru soba (cold soba noodles).`
+                cooking: `Salad, Omelet filling, Mozuku vinegar, Tempura, Mixed with natto and kimchi, Miso soup, Takoyaki (octopus balls), Noodle topping, Ramen,\n\n• Rinse off the slime and enjoy it with mentsuyu (noodle dipping sauce) just like how you enjoys zaru soba (cold soba noodles).`
             },
 
             //Tankan Orange Conch
@@ -324,9 +341,9 @@ window.onload = function () {
 
             //OKINAWA Coffee Sugar
             {
-                name: `OKINAWA Coffee Sugar`,
-                image: `OKINAWA-Coffee-Sugar`,
-                link: `OKINAWA-Coffee-Sugar`,
+                name: `Okinawan Sugar Blended with Coral Calcium`,
+                image: `Okinawan-Sugar-Blended-with-Coral-Calcium`,
+                link: `Okinawan-Sugar-Blended-with-Coral-Calcium`,
                 detail: `Crafted from 100% Okinawan ingredients and blended with coral calcium, this sugar eliminates the bitterness and impurities of brown sugar, resulting in a smooth and sophisticated sweetness.`,
                 specification: `Room Temperature`,
                 itemsPerCase: `20`,
@@ -341,9 +358,9 @@ window.onload = function () {
 
             //OKINAWA Brown Sugar
             {
-                name: `OKINAWA Brown Sugar`,
-                image: `OKINAWA-Brown-Sugar`,
-                link: `OKINAWA-Brown-Sugar`,
+                name: `OKINAWA Cane Sugar`,
+                image: `OKINAWA-Cane-Sugar`,
+                link: `OKINAWA-Cane-Sugar`,
                 detail: `Made from raw sugarcane grown in Okinawa and blended with Okinawan brown sugar, this sugar preserves the distinctive flavor of Okinawan brown sugar while delivering a smooth, mellow sweetness.`,
                 specification: `Room Temperature`,
                 itemsPerCase: `20`,
@@ -376,154 +393,154 @@ window.onload = function () {
             //Acerola Frozen Ingredients
             {
                 name: `Acerola Frozen Ingredients`,
-                image: ``,
-                link: ``,
-                detail: ``,
-                specification: `Refrigerated`,
-                itemsPerCase: `-`,
-                moq: `Approx. 2kg`,
-                netWeight: `Approx. 2kg`,
-                ingredients: `-`,
-                shelfLife: `Not applicable due to being a fresh/raw product`,
+                image: `Acerola-Frozen-Ingredients`,
+                link: `Acerola-Frozen-Ingredients`,
+                detail: `Okinawa is the only region in Japan where acerola is grown in open fields, with Motobu Town being the ideal location due to its favorable climate and natural conditions. This concentrate is made from fully ripened, pesticide-free fruits, simply juiced and turned into puree.`,
+                specification: `Frozen`,
+                itemsPerCase: `6`,
+                moq: `1 case`,
+                netWeight: `2L`,
+                ingredients: `Acerola Puree, Acerola Syrup, Beet Sugar`,
+                shelfLife: `Frozen for 180 days`,
                 shipping: `All year round`,
-                price: `$30-42/kg`,
-                cooking: `Sashimi, Soup, Simmered dishes, Steamed dishes, Sautéed dishes, Grilled dishes`
+                price: `$95`,
+                cooking: `• Ideal as a mixer for soft drinks and cocktails. \n• Perfect as an ingredient for frozen treats.`
             },
 
             //OKINAWA Brown Sugar Syrup
             {
                 name: `OKINAWA Brown Sugar Syrup`,
-                image: ``,
-                link: ``,
-                detail: ``,
-                specification: `Refrigerated`,
-                itemsPerCase: `-`,
-                moq: `Approx. 2kg`,
-                netWeight: `Approx. 2kg`,
-                ingredients: `-`,
-                shelfLife: `Not applicable due to being a fresh/raw product`,
+                image: `OKINAWA-Brown-Sugar-Syrup`,
+                link: `OKINAWA-Brown-Sugar-Syrup`,
+                detail: `Crafted entirely from Okinawan-grown sugarcane, this brown sugar syrup is free from additives like glucose syrup or honey. It delivers a stronger sweetness than traditional Okinawan brown sugar syrup, with a rich, nostalgic flavor and a smooth texture that's beloved by many.`,
+                specification: `Room Temperature`,
+                itemsPerCase: `20`,
+                moq: `1 case`,
+                netWeight: `250g`,
+                ingredients: `Raw sugar (Okinawa) \nMolasses (Okinawa) \nBrown sugar (Okinawa)`,
+                shelfLife: `365`,
                 shipping: `All year round`,
-                price: `$30-42/kg`,
-                cooking: `Sashimi, Soup, Simmered dishes, Steamed dishes, Sautéed dishes, Grilled dishes`
+                price: `$7.90/btl`,
+                cooking: `• Perfect as a seasoning for a wide range of dishes.\n• Ideal for Western, Japanese, and Chinese cuisine, as well as a variety of desserts.`
             },
 
             //OKINAWA Black Honey
             {
                 name: `OKINAWA Black Honey`,
-                image: ``,
-                link: ``,
-                detail: ``,
-                specification: `Refrigerated`,
-                itemsPerCase: `-`,
-                moq: `Approx. 2kg`,
-                netWeight: `Approx. 2kg`,
-                ingredients: `-`,
-                shelfLife: `Not applicable due to being a fresh/raw product`,
+                image: `OKINAWA-Black-Honey`,
+                link: `OKINAWA-Black-Honey`,
+                detail: `Crafted solely from Okinawan-grown sugarcane, without any additives like glucose syrup or honey, this premium black syrup is celebrated for its rich, nostalgic flavor.`,
+                specification: `Room Temperature`,
+                itemsPerCase: `30`,
+                moq: `1 case`,
+                netWeight: `280g`,
+                ingredients: `Raw sugar (Okinawa) \nMolasses (Okinawa) \nBrown sugar (Okinawa)`,
+                shelfLife: `365`,
                 shipping: `All year round`,
-                price: `$30-42/kg`,
-                cooking: `Sashimi, Soup, Simmered dishes, Steamed dishes, Sautéed dishes, Grilled dishes`
+                price: `$13/btl`,
+                cooking: `• Ideal as a seasoning for a variety of dishes.\n• Perfect as a syrup for ice cream, pancakes, and beverages.`
             },
 
             //Aguni No Shio (Okinawa Sea Salt)
             {
                 name: `Aguni No Shio (Okinawa Sea Salt)`,
-                image: ``,
-                link: ``,
-                detail: ``,
-                specification: `Refrigerated`,
-                itemsPerCase: `-`,
-                moq: `Approx. 2kg`,
-                netWeight: `Approx. 2kg`,
-                ingredients: `-`,
-                shelfLife: `Not applicable due to being a fresh/raw product`,
-                shipping: `All year round`,
-                price: `$30-42/kg`,
-                cooking: `Sashimi, Soup, Simmered dishes, Steamed dishes, Sautéed dishes, Grilled dishes`
+                image: `Aguni-No-Shio-Okinawa-Sea-Salt`,
+                link: `Aguni-No-Shio-Okinawa-Sea-Salt`,
+                detail: `Seawater sourced from the waters near Aguni Village is channeled into an evaporation tower, where it undergoes continuous evaporation for 10 days. Afterward, it is boiled in a flat pan for 30 hours, then dehydrated and dried over two weeks, forming sea crystals that take about a month to produce. This salt enhances the natural flavors of ingredients and pairs well with a wide range of dishes, including pickled plums, miso, and soy sauce.`,
+                specification: `Room Temperature`,
+                itemsPerCase: `40`,
+                moq: `1 case`,
+                netWeight: `160g`,
+                ingredients: `Sea Water (Aguni-jima, Okinawa)`,
+                shelfLife: `N/A`,
+                shipping: `Typically available year-round, but stock levels may vary due to weather conditions`,
+                price: `$9/btl`,
+                cooking: `• As a seasoning for various dishes.`
             },
 
             //Royal Mizuho Ryukyu Awamori 5 Year
             {
                 name: `Royal Mizuho Ryukyu Awamori 5 Year`,
-                image: ``,
-                link: ``,
-                detail: ``,
-                specification: `Refrigerated`,
-                itemsPerCase: `-`,
-                moq: `Approx. 2kg`,
-                netWeight: `Approx. 2kg`,
-                ingredients: `-`,
-                shelfLife: `Not applicable due to being a fresh/raw product`,
+                image: `Royal-Mizuho-Ryukyu-Awamori-5-Year`,
+                link: `Royal-Mizuho-Ryukyu-Awamori-5-Year`,
+                detail: `Awamori made with black koji develops a deeper profile, with its aroma and flavor evolving beautifully as it ages. Meticulously selected premium spirits aged for over five years, each with distinct characteristics, and blend them in a proprietary ratio. When poured and allowed to breathe, it reveals a sweet, subtly roasted aroma with hints of caramel and nuts.`,
+                specification: `Room Temperature`,
+                itemsPerCase: `12`,
+                moq: `5 case`,
+                netWeight: `720ml (Alcohol 43%)`,
+                ingredients: `Rice koji (Thai rice) and water`,
+                shelfLife: `-`,
                 shipping: `All year round`,
-                price: `$30-42/kg`,
-                cooking: `Sashimi, Soup, Simmered dishes, Steamed dishes, Sautéed dishes, Grilled dishes`
+                price: `$67`,
+                cooking: `Its depth of flavor is enhanced by the 43% alcohol content. Savor it straight or on the rocks.`
             },
 
             //SAKE×AWAMORI Daiginjo 2024
             {
                 name: `SAKE x AWAMORI Daiginjo 2024`,
-                image: ``,
-                link: ``,
-                detail: ``,
-                specification: `Refrigerated`,
+                image: `SAKE-AWAMORI-Daiginjo-2024`,
+                link: `SAKE-AWAMORI-Daiginjo-2024`,
+                detail: `"SAKE×AWAMORI" is a joint creation between Tajima Shuzo, a sake brewery in Fukui Prefecture, and OneSpirit from Okinawa.`,
+                specification: `Room Temperature`,
                 itemsPerCase: `-`,
-                moq: `Approx. 2kg`,
-                netWeight: `Approx. 2kg`,
-                ingredients: `-`,
-                shelfLife: `Not applicable due to being a fresh/raw product`,
+                moq: `5 case`,
+                netWeight: `720ml (Alcohol 16%)`,
+                ingredients: `Rice (Fukui Prefecture)\nRice koji (rice from Fukui Prefecture) \nAwamori (Okinawa Prefecture)`,
+                shelfLife: `-`,
                 shipping: `All year round`,
-                price: `$30-42/kg`,
-                cooking: `Sashimi, Soup, Simmered dishes, Steamed dishes, Sautéed dishes, Grilled dishes`
+                price: `$69`,
+                cooking: `When thoroughly chilled, it reveals its full flavor. With its robust body, it stands out among sakes and can be enjoyed on the rocks with a single ice cube or as a refreshing highball mixed with sparkling water.`
             },
 
             //Japanese Craft Gin ORI-GIN
             {
                 name: `Japanese Craft Gin ORI-GIN`,
-                image: ``,
-                link: ``,
-                detail: ``,
-                specification: `Refrigerated`,
-                itemsPerCase: `-`,
-                moq: `Approx. 2kg`,
-                netWeight: `Approx. 2kg`,
-                ingredients: `-`,
-                shelfLife: `Not applicable due to being a fresh/raw product`,
+                image: `Japanese-Craft-Gin-ORI-GIN`,
+                link: `Japanese-Craft-Gin-ORI-GIN`,
+                detail: `Created with the concept of "a craft gin that captures the essence of Okinawa in a single sip," this tropical and rich gin features a foundation of Okinawan flavors, beautifully enhanced by the smooth botanical aromas of juniper berries and other key botanicals that define its character.`,
+                specification: `Room Temperature`,
+                itemsPerCase: `6`,
+                moq: `5 case`,
+                netWeight: `500ml (Alcohol 48%)`,
+                ingredients: `Juniper Berry Spirits (Okinawa/Imported) \nLemongrass Spirits (Okinawa)\nCoriander Seed Spirits (Okinawa/Imported) \nPeach Pineapple Spirits (Okinawa) \nBotanical Spirits (Okinawa)`,
+                shelfLife: `-`,
                 shipping: `All year round`,
-                price: `$30-42/kg`,
-                cooking: `Sashimi, Soup, Simmered dishes, Steamed dishes, Sautéed dishes, Grilled dishes`
+                price: `$67`,
+                cooking: `Savor its unique flavor straight or on the rocks. When mixed with soda, it delivers a refreshing herbal note with a citrusy aftertaste that enhances the overall experience.`
             },
 
             //SHŌ MIZUHO
             {
                 name: `SHŌ MIZUHO`,
-                image: ``,
-                link: ``,
-                detail: ``,
-                specification: `Refrigerated`,
-                itemsPerCase: `-`,
-                moq: `Approx. 2kg`,
-                netWeight: `Approx. 2kg`,
-                ingredients: `-`,
-                shelfLife: `Not applicable due to being a fresh/raw product`,
+                image: `SHO-MIZUHO`,
+                link: `SHO-MIZUHO`,
+                detail: `Shō MIZUHO is a next-generation awamori with a refreshing mint-like aroma and a gentle, clean profile. It boasts a smooth texture and a flavor that evokes a distinctly Japanese essence, reminiscent of rice. It is ideal as a cocktail base for Japanese ingredients, such as Japanese tea.`,
+                specification: `Room Temperature`,
+                itemsPerCase: `6`,
+                moq: `5 case`,
+                netWeight: `720ml (Alcohol 40%)`,
+                ingredients: `Rice koji (Thai rice)・Water`,
+                shelfLife: `-`,
                 shipping: `All year round`,
-                price: `$30-42/kg`,
-                cooking: `Sashimi, Soup, Simmered dishes, Steamed dishes, Sautéed dishes, Grilled dishes`
+                price: `$73`,
+                cooking: `Enjoy it in a variety of cocktails, including gin and tonic, gimlet, negroni, martini (with green tea or jasmine tea), daiquiri, sidecar, caipirinha, Manhattan, old-fashioned, Sazerac, and more.`
             },
 
             //The Okinawa Islands Rum
             {
                 name: `The Okinawa Islands Rum`,
-                image: ``,
-                link: ``,
-                detail: ``,
-                specification: `Refrigerated`,
-                itemsPerCase: `-`,
-                moq: `Approx. 2kg`,
-                netWeight: `Approx. 2kg`,
-                ingredients: `-`,
-                shelfLife: `Not applicable due to being a fresh/raw product`,
+                image: `The-Okinawa-Islands-Rum`,
+                link: `The-Okinawa-Islands-Rum`,
+                detail: `Crafted from brown sugar sourced from eight remote islands in Okinawa, this rum harmoniously blends the distinct flavors and local characteristics of each island's brown sugar. In celebration of the 400th anniversary of brown sugar's introduction to Okinawa in 2023, this luxurious rum embodies the rich history and future of Okinawan brown sugar.`,
+                specification: `Room Temperature`,
+                itemsPerCase: `6`,
+                moq: `5 case`,
+                netWeight: `720ml (Alcohol 40%)`,
+                ingredients: `Brown sugar (Okinawa Prefecture)`,
+                shelfLife: `-`,
                 shipping: `All year round`,
-                price: `$30-42/kg`,
-                cooking: `Sashimi, Soup, Simmered dishes, Steamed dishes, Sautéed dishes, Grilled dishes`
+                price: `$47`,
+                cooking: `• Excellent in cocktails like daiquiri, mojito, and Cuba libre\n • Perfect for mixing with soda\n• Pairs beautifully with chocolate and Japanese sweets`
             }
         ]
     }

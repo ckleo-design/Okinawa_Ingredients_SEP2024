@@ -79,7 +79,7 @@ body {
     .firstview__inner--subtitle, .firstview__inner--title {
       font-size: 54px;
       line-height: 1;
-      font-family: 'Big Caslon', sans-serif;
+      font-family: 'Big Caslon', serif;
       color: #925541;
       text-align: center; }
     .firstview__inner--title {
@@ -126,10 +126,11 @@ main .all-items__inner {
       height: 100px;
       font-size: clamp(1.25rem, 0.7813rem + 0.9766vw, 1.5625rem);
       font-weight: 600;
-      line-height: 1.25;
+      line-height: 1.35;
       font-family: "Poppins", arial;
       color: #000000;
-      text-align: center; }
+      text-align: center;
+      text-wrap: pretty; }
     main .all-items__inner__block--item-btn {
       display: block;
       width: 80%;
@@ -174,92 +175,193 @@ main .all-items__inner {
   .page-top.remove {
     opacity: 0; }
 
-.item-profile {
-  box-sizing: border-box;
-  width: 100%;
-  height: 100%;
-  padding: 100px 60px;
-  background-color: #ffffff; }
-  .item-profile__inner {
-    max-width: 1440px;
-    margin: 0 auto;
+@media (max-width: 768px) {
+  .firstview {
+    width: 100%;
+    max-width: 100vw;
+    height: 600px;
+    background: url("../images/firstview-bg-sp.png") 50% 0% no-repeat;
+    background-size: cover; }
+    .firstview--logo {
+      width: 90px;
+      height: auto;
+      position: absolute;
+      top: 20px;
+      left: 20px; }
+    .firstview__inner {
+      height: 100%;
+      display: grid;
+      place-content: center; }
+      .firstview__inner--subtitle, .firstview__inner--title {
+        font-size: 32px;
+        line-height: 1.4;
+        font-family: 'Big Caslon', serif;
+        color: #925541;
+        text-align: center; }
+      .firstview__inner--title {
+        margin-top: 10px;
+        font-size: 60px;
+        line-height: 1.2; }
+  main .all-items__inner {
+    width: 97%;
+    max-width: 100vw;
+    padding-bottom: 100px;
     display: flex;
     flex-direction: row;
     justify-content: space-between;
-    align-items: flex-start; }
-    .item-profile__inner__image {
-      width: 43%;
-      max-width: 550px; }
-      .item-profile__inner__image img {
-        width: 100%;
-        height: auto; }
-    .item-profile__inner__content {
-      width: 50%; }
-      .item-profile__inner__content--product-name {
-        font-size: 32px;
-        line-height: 1.3;
-        font-family: "Poppins", arial;
-        font-weight: 600; }
-      .item-profile__inner__content--hr {
-        width: 100%;
-        display: block;
-        border-top: 1px dashed #808080;
-        margin: 24px 0; }
-      .item-profile__inner__content--product-detail {
+    align-items: stretch;
+    row-gap: 10px; }
+    main .all-items__inner::after {
+      display: none;
+      width: auto;
+      max-width: auto; }
+    main .all-items__inner__block {
+      box-sizing: border-box;
+      width: 49.2%;
+      max-width: auto;
+      min-width: auto;
+      padding: 10px 8px 10px; }
+      main .all-items__inner__block--item-title {
+        margin: 16px auto 10px;
+        height: 100px;
         font-size: 18px;
-        line-height: 1.5;
-        font-family: "Poppins", arial;
-        font-weight: 500; }
-      .item-profile__inner__content__info {
-        width: 100%;
-        border: 1px solid #b2b2b2;
-        margin-top: 20px; }
-        .item-profile__inner__content__info__row {
+        line-height: 1.35; }
+      main .all-items__inner__block--item-btn {
+        padding: 12px 0;
+        font-size: 16px; }
+  .l-footer {
+    background-color: #333;
+    padding: 50px 0; }
+    .l-footer--copyright {
+      font-size: 14px;
+      line-height: 1;
+      font-family: "Poppins", arial;
+      color: #ffffff;
+      text-align: center; } }
+
+.item-profile-page {
+  background-color: #ffffff; }
+  .item-profile-page .item-profile {
+    box-sizing: border-box;
+    width: 100%;
+    height: 100%;
+    padding: 80px 60px 30px;
+    background-color: #ffffff; }
+    .item-profile-page .item-profile__inner {
+      max-width: 1440px;
+      margin: 0 auto;
+      display: flex;
+      flex-direction: row;
+      justify-content: space-between;
+      align-items: flex-start; }
+      .item-profile-page .item-profile__inner__image {
+        width: 43%;
+        max-width: 550px; }
+        .item-profile-page .item-profile__inner__image img {
           width: 100%;
-          border: 1px solid #b2b2b2;
-          background-color: #eaf0f2; }
-          .item-profile__inner__content__info__row:nth-child(2n) {
-            background-color: #ffffff; }
-          .item-profile__inner__content__info__row--title {
-            padding: 12px 10px;
-            width: 33%;
-            border-right: 1px solid #b2b2b2;
-            font-size: 18px;
-            line-height: 1;
-            font-family: "Poppins", arial;
-            font-weight: 500; }
-          .item-profile__inner__content__info__row--detail {
-            padding: 12px 10px;
-            width: 67%;
-            font-size: 18px;
-            line-height: 1;
-            font-family: "Poppins", arial;
-            font-weight: 500; }
-      .item-profile__inner__content__cooking {
-        margin-top: 24px; }
-        .item-profile__inner__content__cooking--title {
-          font-size: 18px;
-          line-height: 1.5;
+          height: auto; }
+      .item-profile-page .item-profile__inner__content {
+        width: 50%; }
+        .item-profile-page .item-profile__inner__content--product-name {
+          font-size: 32px;
+          line-height: 1.3;
           font-family: "Poppins", arial;
-          font-weight: 700; }
-        .item-profile__inner__content__cooking--detail {
+          font-weight: 600; }
+        .item-profile-page .item-profile__inner__content--hr {
+          width: 100%;
+          display: block;
+          border-top: 1px dashed #808080;
+          margin: 24px 0; }
+        .item-profile-page .item-profile__inner__content--product-detail {
           font-size: 18px;
           line-height: 1.5;
           font-family: "Poppins", arial;
           font-weight: 500; }
-      .item-profile__inner__content--all-list-btn {
-        margin-top: 24px;
-        display: block;
-        width: fit-content;
-        padding: 20px 70px;
-        background-color: #64b1ba;
-        font-size: 18px;
-        line-height: 1;
-        font-family: "Poppins", arial;
-        font-weight: 600;
-        color: #ffffff;
-        text-decoration: none;
-        transition: background-color 0.3s; }
-        .item-profile__inner__content--all-list-btn:hover {
-          cursor: pointer;
-          background-color: #70c6d0; }
+        .item-profile-page .item-profile__inner__content__info {
+          width: 100%;
+          border: 1px solid #b2b2b2;
+          margin-top: 20px; }
+          .item-profile-page .item-profile__inner__content__info__row {
+            width: 100%;
+            border: 1px solid #b2b2b2;
+            background-color: #eaf0f2; }
+            .item-profile-page .item-profile__inner__content__info__row:nth-child(2n) {
+              background-color: #ffffff; }
+            .item-profile-page .item-profile__inner__content__info__row--title {
+              padding: 12px 10px;
+              width: 33%;
+              border-right: 1px solid #b2b2b2;
+              font-size: 18px;
+              line-height: 1;
+              font-family: "Poppins", arial;
+              font-weight: 500;
+              vertical-align: middle; }
+            .item-profile-page .item-profile__inner__content__info__row--detail {
+              padding: 12px 10px;
+              width: 67%;
+              font-size: 18px;
+              line-height: 1.2;
+              font-family: "Poppins", arial;
+              font-weight: 500; }
+        .item-profile-page .item-profile__inner__content__cooking {
+          margin-top: 24px; }
+          .item-profile-page .item-profile__inner__content__cooking--title {
+            font-size: 18px;
+            line-height: 1.5;
+            font-family: "Poppins", arial;
+            font-weight: 700; }
+          .item-profile-page .item-profile__inner__content__cooking--detail {
+            font-size: 18px;
+            line-height: 1.5;
+            font-family: "Poppins", arial;
+            font-weight: 500; }
+        .item-profile-page .item-profile__inner__content--all-list-btn {
+          margin-top: 24px;
+          display: block;
+          width: fit-content;
+          padding: 20px 70px;
+          background-color: #64b1ba;
+          font-size: 18px;
+          line-height: 1;
+          font-family: "Poppins", arial;
+          font-weight: 600;
+          color: #ffffff;
+          text-decoration: none;
+          transition: background-color 0.3s; }
+          .item-profile-page .item-profile__inner__content--all-list-btn:hover {
+            cursor: pointer;
+            background-color: #70c6d0; }
+
+@media (max-width: 768px) {
+  .item-profile-page {
+    max-width: 100vw; }
+    .item-profile-page .item-profile {
+      padding: 40px 20px 100px;
+      background-color: #ffffff; }
+      .item-profile-page .item-profile__inner {
+        max-width: 100%;
+        display: flex;
+        flex-direction: column;
+        justify-content: center;
+        align-items: center; }
+        .item-profile-page .item-profile__inner__image {
+          width: 100%;
+          max-width: 100%; }
+        .item-profile-page .item-profile__inner__content {
+          width: 100%; }
+          .item-profile-page .item-profile__inner__content--product-name {
+            margin-top: 20px;
+            font-size: 28px; }
+          .item-profile-page .item-profile__inner__content__info__row--title {
+            line-height: 1.2;
+            vertical-align: middle; }
+          .item-profile-page .item-profile__inner__content__info__row--detail {
+            vertical-align: middle; }
+          .item-profile-page .item-profile__inner__content__cooking--title {
+            margin-bottom: 16px; }
+          .item-profile-page .item-profile__inner__content--all-list-btn {
+            width: 80%;
+            margin-left: auto;
+            margin-right: auto;
+            padding: 20px 0;
+            text-align: center; } }

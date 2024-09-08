@@ -19,7 +19,7 @@
         &--title {
             font-size: 54px;
             line-height: 1;
-            font-family: 'Big Caslon', sans-serif;
+            font-family: 'Big Caslon', serif;
             color: $color-red;
             text-align: center;
         }
@@ -71,10 +71,11 @@ main {
                     height: 100px;
                     font-size: unquote('clamp(1.25rem, 0.7813rem + 0.9766vw, 1.5625rem)');
                     font-weight: 600;
-                    line-height: 1.25;
+                    line-height: 1.35;
                     font-family: $font-poppins;
                     color: $color-black;
                     text-align: center;
+                    text-wrap: pretty;
                 }
                 &--item-btn {
                     display: block;
@@ -127,5 +128,85 @@ main {
     }
     &.remove {
         opacity: 0;
+    }
+}
+
+@include min(mb) {
+    .firstview {
+        width: 100%;
+        max-width: 100vw;
+        height: 600px;
+        background: url('../images/firstview-bg-sp.png') 50% 0% no-repeat;
+        background-size: cover;
+        &--logo {
+            width: 90px;
+            height: auto;
+            position: absolute;
+            top: 20px;
+            left: 20px;
+        }
+        &__inner {
+            height: 100%;
+            display: grid;
+            place-content: center;
+            &--subtitle,
+            &--title {
+                font-size: 32px;
+                line-height: 1.4;
+                font-family: 'Big Caslon', serif;
+                color: $color-red;
+                text-align: center;
+            }
+            &--title {
+                margin-top: 10px;
+                font-size: 60px;
+                line-height: 1.2;
+            }
+        }
+    }
+
+    main {
+        .all-items {
+            &__inner {
+                width: 97%;
+                max-width: 100vw;
+                padding-bottom: 100px;
+                @include display-flex(row, space-between, stretch);
+                row-gap: 10px;
+                &::after {
+                    display: none;
+                    width: auto;
+                    max-width: auto;
+                }
+                &__block {
+                    box-sizing: border-box;
+                    width: 49.2%;
+                    max-width: auto;
+                    min-width: auto;
+                    padding: 10px 8px 10px;
+                    &--item-title {
+                        margin: 16px auto 10px;
+                        height: 100px;
+                        font-size: 18px;
+                        line-height: 1.35;
+                    }
+                    &--item-btn {
+                        padding: 12px 0;
+                        font-size: 16px;
+                    }
+                }
+            }
+        }
+    }
+    .l-footer {
+        background-color: #333;
+        padding: 50px 0;
+        &--copyright {
+            font-size: 14px;
+            line-height: 1;
+            font-family: $font-poppins;
+            color: $color-white;
+            text-align: center;
+        }
     }
 }
