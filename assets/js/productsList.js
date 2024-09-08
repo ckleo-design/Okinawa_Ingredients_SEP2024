@@ -188,7 +188,7 @@ window.onload = function () {
 
             //Bamboo Shrimp / Kuruma Prawn
             {
-                name: `Tiger-Prawn`,
+                name: `Tiger Prawn`,
                 image: `Tiger-Prawn`,
                 link: `Tiger-Prawn`,
                 detail: `Bamboo shrimp cultivated in Okinawa's warm, pristine waters achieve impressive size year-round thanks to continuous feeding. This consistent nourishment enhances their rich flavor and mineral richness.`,
