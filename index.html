@@ -36,7 +36,7 @@
             </section>
         </main>
         <footer class="l-footer">
-            <p class="l-footer--copyright">© OKINAWA 2024 All Rights Reserved.</p>
+            <p class="l-footer--copyright">Copyright © Okinawa Prefectural Government. All Rights Reserved.</p>
         </footer>
         <a class="page-top display remove" href=""><img src="assets/images/to-top-btn.png" alt="" /></a>
     </body>
@@ -49,7 +49,10 @@
         {{#each itemList}}
             <div class='all-items__inner__block'>
                 <img class='all-items__inner__block--item-image' src='assets/images/items/{{image}}.png' alt='{{name}}' />
-                <h3 class='all-items__inner__block--item-title'>{{name}}</h3>
+                <div class='all-items__inner__block__item'>
+                    <h3 class='all-items__inner__block__item--japanese-title'>{{jname}}</h3>
+                    <h3 class='all-items__inner__block__item--english-title'>{{name}}</h3>
+                </div>
                 <a class='all-items__inner__block--item-btn' href='products/{{link}}'>View Details</a>
             </div>
         {{/each}}

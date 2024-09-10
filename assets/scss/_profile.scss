@@ -21,6 +21,12 @@
             }
             &__content {
                 width: 50%;
+                &--product-japanese-name {
+                    font-size: 32px;
+                    line-height: 1.3;
+                    font-family: $font-poppins;
+                    font-weight: 600;
+                }
                 &--product-name {
                     font-size: 32px;
                     line-height: 1.3;
@@ -124,8 +130,11 @@
                 }
                 &__content {
                     width: 100%;
-                    &--product-name {
+                    &--product-japanese-name {
                         margin-top: 20px;
+                        font-size: 28px;
+                    }
+                    &--product-name {
                         font-size: 28px;
                     }
                     &__info {

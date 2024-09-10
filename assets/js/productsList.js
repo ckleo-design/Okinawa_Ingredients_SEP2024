@@ -18,6 +18,7 @@ window.onload = function () {
         itemList: [
             //Leopard Coralgrouper / Mebai
             {
+                jname: `ミーバイ`,
                 name: `Leopard Coralgrouper / Mebai`,
                 image: `Leopard-Coralgrouper-Mebai`,
                 link: `Leopard-Coralgrouper-Mebai`,
@@ -35,6 +36,7 @@ window.onload = function () {
 
             //Leopard Coralgrouper / Sujiara (Akajin Mebai)
             {
+                jname: `スジアラ`,
                 name: `Leopard Coralgrouper / Sujiara (Akajin Mebai)`,
                 image: `Leopard-Coralgrouper-Sujiara-Akajin-Mebai`,
                 link: `Leopard-Coralgrouper-Sujiara-Akajin-Mebai`,
@@ -52,6 +54,7 @@ window.onload = function () {
 
             //Deepwater Longtail Red Snapper
             {
+                jname: `アカマチ / オナガ`,
                 name: `Deepwater Longtail Red Snapper`,
                 image: `Deepwater-Longtail-Red-Snapper`,
                 link: `Deepwater-Longtail-Red-Snapper`,
@@ -67,8 +70,9 @@ window.onload = function () {
                 cooking: `Sashimi, Soup, Simmered dishes, Steamed dishes, Sautéed dishes, Grilled dishes`
             },
 
-            //Deepwater Longtail Red Snapper
+            //Blackspot Tuskfish / Makubu
             {
+                jname: `マクブ`,
                 name: `Blackspot Tuskfish / Makubu`,
                 image: `Blackspot-Tuskfish-Makubu`,
                 link: `Blackspot-Tuskfish-Makubu`,
@@ -80,12 +84,13 @@ window.onload = function () {
                 ingredients: `-`,
                 shelfLife: `Not applicable due to being a fresh / raw product`,
                 shipping: `All year round`,
-                price: `-`,
+                price: `Approx. $45/kg`,
                 cooking: `Sashimi, Soup, Simmered dishes, Steamed dishes, Sautéed dishes, Grilled dishes`
             },
 
             //Great Green Turban/ Yako-gai
             {
+                jname: `夜光貝`,
                 name: `Great Green Turban / Yako-gai`,
                 image: `Great-Green-Turban-Yako-gai`,
                 link: `Great-Green-Turban-Yako-gai`,
@@ -103,6 +108,7 @@ window.onload = function () {
 
             //Rhomboid Squid
             {
+                jname: `ソデイカ`,
                 name: `Rhomboid Squid`,
                 image: `Rhomboid-Squid`,
                 link: `Rhomboid-Squid`,
@@ -120,6 +126,7 @@ window.onload = function () {
 
             //Octopus
             {
+                jname: `島ダコ`,
                 name: `Octopus`,
                 image: `Octopus`,
                 link: `Octopus`,
@@ -137,6 +144,7 @@ window.onload = function () {
 
             //Bluefin Tuna (Akami)
             {
+                jname: `本マグロ 赤身`,
                 name: `Bluefin Tuna (Akami)`,
                 image: `Bluefin-Tuna-Akami`,
                 link: `Bluefin-Tuna-Akami`,
@@ -154,6 +162,7 @@ window.onload = function () {
 
             //Bluefin medium-fatty tuna (Chutoro)
             {
+                jname: `本マグロ 中トロ`,
                 name: `Bluefin medium-fatty tuna (Chutoro)`,
                 image: `Bluefin-medium-fatty-tuna-Chutoro`,
                 link: `Bluefin-medium-fatty-tuna-Chutoro`,
@@ -171,6 +180,7 @@ window.onload = function () {
 
             //Bluefin Fatty Tuna (Otoro)
             {
+                jname: `本マグロ 大トロ`,
                 name: `Bluefin Fatty Tuna (Otoro)`,
                 image: `Bluefin-Fatty-Tuna-Otoro`,
                 link: `Bluefin-Fatty-Tuna-Otoro`,
@@ -188,10 +198,11 @@ window.onload = function () {
 
             //Bamboo Shrimp / Kuruma Prawn
             {
+                jname: `車海老`,
                 name: `Tiger Prawn`,
                 image: `Tiger-Prawn`,
                 link: `Tiger-Prawn`,
-                detail: `Bamboo shrimp cultivated in Okinawa's warm, pristine waters achieve impressive size year-round thanks to continuous feeding. This consistent nourishment enhances their rich flavor and mineral richness.`,
+                detail: `Tiger Prawn cultivated in Okinawa's warm, pristine waters achieve impressive size year-round thanks to continuous feeding. This consistent nourishment enhances their rich flavor and mineral richness.`,
                 specification: `Frozen`,
                 itemsPerCase: `To be confirmed upon shipping`,
                 moq: `To be confirmed upon shipping`,
@@ -205,6 +216,7 @@ window.onload = function () {
 
             //Green Laver
             {
+                jname: `アーサ`,
                 name: `Green Laver`,
                 image: `Green-Laver`,
                 link: `Green-Laver`,
@@ -222,6 +234,7 @@ window.onload = function () {
 
             //Mozuku Seaweed
             {
+                jname: `冷凍洗いもずく`,
                 name: `Mozuku Seaweed`,
                 image: `Mozuku-Seaweed`,
                 link: `Mozuku-Seaweed`,
@@ -239,6 +252,7 @@ window.onload = function () {
 
             //Tankan Orange Conch
             {
+                jname: `タンカン コンク`,
                 name: `Tankan Orange Conch`,
                 image: `Tankan-Orange-Conch`,
                 link: `Tankan-Orange-Conch`,
@@ -256,6 +270,7 @@ window.onload = function () {
 
             //Shikwasa (Okinawan Citrus Fruit) Conch
             {
+                jname: `シークワーサー コンク`,
                 name: `Shikwasa (Okinawan Citrus Fruit) Conch`,
                 image: `Shikwasa-Okinawan-Citrus-Fruit-Conch`,
                 link: `Shikwasa-Okinawan-Citrus-Fruit-Conch`,
@@ -273,6 +288,7 @@ window.onload = function () {
 
             //Kokuto Nectar
             {
+                jname: `琉球くろみつ`,
                 name: `Kokuto Nectar`,
                 image: `Kokuto-Nectar`,
                 link: `Kokuto-Nectar`,
@@ -290,6 +306,7 @@ window.onload = function () {
 
             //Long Pepper
             {
+                jname: `プレミアムヒバーチ / 島胡椒`,
                 name: `Long Pepper`,
                 image: `Long-Pepper`,
                 link: `Long-Pepper`,
@@ -307,6 +324,7 @@ window.onload = function () {
 
             //Tarama Brown Sugar Powder
             {
+                jname: `多良間島の粉黒糖`,
                 name: `Tarama Brown Sugar Powder`,
                 image: `Tarama-Brown-Sugar-Powder`,
                 link: `Tarama-Brown-Sugar-Powder`,
@@ -324,6 +342,7 @@ window.onload = function () {
 
             //OKINAWA Brown Sugar Ginger Powder
             {
+                jname: `国産しょうが入り黒糖しょうがぱうだー`,
                 name: `OKINAWA Brown Sugar Ginger Powder`,
                 image: `OKINAWA-Brown-Sugar-Ginger-Powder`,
                 link: `OKINAWA-Brown-Sugar-Ginger-Powder`,
@@ -341,6 +360,7 @@ window.onload = function () {
 
             //OKINAWA Coffee Sugar
             {
+                jname: `珊瑚のカルシウム入り沖縄の砂糖`,
                 name: `Okinawan Sugar Blended with Coral Calcium`,
                 image: `Okinawan-Sugar-Blended-with-Coral-Calcium`,
                 link: `Okinawan-Sugar-Blended-with-Coral-Calcium`,
@@ -358,10 +378,11 @@ window.onload = function () {
 
             //OKINAWA Brown Sugar
             {
+                jname: `沖縄のさとうきび糖`,
                 name: `OKINAWA Cane Sugar`,
                 image: `OKINAWA-Cane-Sugar`,
                 link: `OKINAWA-Cane-Sugar`,
-                detail: `Made from raw sugarcane grown in Okinawa and blended with Okinawan brown sugar, this sugar preserves the distinctive flavor of Okinawan brown sugar while delivering a smooth, mellow sweetness.`,
+                detail: `Made from raw sugarcane grown in Okinawa and blended with Okinawan cane sugar, this sugar preserves the distinctive flavor of Okinawan brown sugar while delivering a smooth, mellow sweetness.`,
                 specification: `Room Temperature`,
                 itemsPerCase: `20`,
                 moq: `1 case`,
@@ -375,6 +396,7 @@ window.onload = function () {
 
             //Acerola Puree
             {
+                jname: `アセローラピューレ`,
                 name: `Acerola Puree`,
                 image: `Acerola-Puree`,
                 link: `Acerola-Puree`,
@@ -392,6 +414,7 @@ window.onload = function () {
 
             //Acerola Frozen Ingredients
             {
+                jname: `アセローラの素`,
                 name: `Acerola Frozen Ingredients`,
                 image: `Acerola-Frozen-Ingredients`,
                 link: `Acerola-Frozen-Ingredients`,
@@ -409,6 +432,7 @@ window.onload = function () {
 
             //OKINAWA Brown Sugar Syrup
             {
+                jname: `沖縄黒糖シロップ`,
                 name: `OKINAWA Brown Sugar Syrup`,
                 image: `OKINAWA-Brown-Sugar-Syrup`,
                 link: `OKINAWA-Brown-Sugar-Syrup`,
@@ -426,6 +450,7 @@ window.onload = function () {
 
             //OKINAWA Black Honey
             {
+                jname: `沖縄黒糖蜜`,
                 name: `OKINAWA Black Honey`,
                 image: `OKINAWA-Black-Honey`,
                 link: `OKINAWA-Black-Honey`,
@@ -443,6 +468,7 @@ window.onload = function () {
 
             //Aguni No Shio (Okinawa Sea Salt)
             {
+                jname: `粟國の塩`,
                 name: `Aguni No Shio (Okinawa Sea Salt)`,
                 image: `Aguni-No-Shio-Okinawa-Sea-Salt`,
                 link: `Aguni-No-Shio-Okinawa-Sea-Salt`,
@@ -460,6 +486,7 @@ window.onload = function () {
 
             //Royal Mizuho Ryukyu Awamori 5 Year
             {
+                jname: `琉球泡盛 ロイヤル瑞穂 熟成五年古酒`,
                 name: `Royal Mizuho Ryukyu Awamori 5 Year`,
                 image: `Royal-Mizuho-Ryukyu-Awamori-5-Year`,
                 link: `Royal-Mizuho-Ryukyu-Awamori-5-Year`,
@@ -477,6 +504,7 @@ window.onload = function () {
 
             //SAKE×AWAMORI Daiginjo 2024
             {
+                jname: `SAKE×AWAMORI 大吟醸 2024`,
                 name: `SAKE x AWAMORI Daiginjo 2024`,
                 image: `SAKE-AWAMORI-Daiginjo-2024`,
                 link: `SAKE-AWAMORI-Daiginjo-2024`,
@@ -494,6 +522,7 @@ window.onload = function () {
 
             //Japanese Craft Gin ORI-GIN
             {
+                jname: ``,
                 name: `Japanese Craft Gin ORI-GIN`,
                 image: `Japanese-Craft-Gin-ORI-GIN`,
                 link: `Japanese-Craft-Gin-ORI-GIN`,
@@ -511,6 +540,7 @@ window.onload = function () {
 
             //SHŌ MIZUHO
             {
+                jname: `尚 MIZUHO`,
                 name: `SHŌ MIZUHO`,
                 image: `SHO-MIZUHO`,
                 link: `SHO-MIZUHO`,
@@ -528,6 +558,7 @@ window.onload = function () {
 
             //The Okinawa Islands Rum
             {
+                jname: ``,
                 name: `The Okinawa Islands Rum`,
                 image: `The-Okinawa-Islands-Rum`,
                 link: `The-Okinawa-Islands-Rum`,

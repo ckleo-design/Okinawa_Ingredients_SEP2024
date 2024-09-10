@@ -66,16 +66,28 @@ main {
                     width: 100%;
                     height: auto;
                 }
-                &--item-title {
-                    margin: 26px auto 10px;
-                    height: 100px;
-                    font-size: unquote('clamp(1.25rem, 0.7813rem + 0.9766vw, 1.5625rem)');
-                    font-weight: 600;
-                    line-height: 1.35;
-                    font-family: $font-poppins;
-                    color: $color-black;
-                    text-align: center;
-                    text-wrap: pretty;
+                &__item {
+                    height: 150px;
+                    &--japanese-title {
+                        margin: 26px auto 10px;
+                        font-size: unquote('clamp(1.125rem, 0.7813rem + 0.9766vw, 1.5625rem)');
+                        font-weight: 600;
+                        line-height: 1.35;
+                        font-family: $font-poppins;
+                        color: $color-black;
+                        text-align: center;
+                        text-wrap: pretty;
+                    }
+                    &--english-title {
+                        margin: 0 auto 10px;
+                        font-size: unquote('clamp(1.25rem, 0.7813rem + 0.9766vw, 1.5625rem)');
+                        font-weight: 600;
+                        line-height: 1.35;
+                        font-family: $font-poppins;
+                        color: $color-black;
+                        text-align: center;
+                        text-wrap: pretty;
+                    }
                 }
                 &--item-btn {
                     display: block;
@@ -184,11 +196,18 @@ main {
                     max-width: auto;
                     min-width: auto;
                     padding: 10px 8px 10px;
-                    &--item-title {
-                        margin: 16px auto 10px;
-                        height: 100px;
-                        font-size: 18px;
-                        line-height: 1.35;
+                    &__item {
+                        height: 130px;
+                        &--japanese-title {
+                            margin: 16px auto 6px;
+                            font-size: 18px;
+                        }
+                        &--english-title {
+                            margin: 0 auto 10px;
+                            height: auto;
+                            font-size: 18px;
+                            line-height: 1.35;
+                        }
                     }
                     &--item-btn {
                         padding: 12px 0;
